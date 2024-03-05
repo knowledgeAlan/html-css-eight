@@ -1,0 +1,30 @@
+{
+    "sourceFile": "youtube.html",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 3,
+            "patches": [
+                {
+                    "date": 1709634179156,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1709634311207,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,7 +20,15 @@\n         \n         <input class=\"searh-bar\" type=\"text\" placeholder=\"Search\">\n \n         <img class=\"thumbnail\" src=\"thumbnails/thumbnail.png\" alt=\"Dinosaur\"/>\n+\n+        <p class=\"video-title\">\n+            Marques Brownlee\n+        </p>\n+\n+        <p class=\"video-stats\">\n+            3.4M views &#183; 6 months ago\n+        </p>\n     </body>\n </head>\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1709634435526,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,8 +5,9 @@\n     <title>Youtube.com Clone</title>\n     <style >\n         .thumbnail {\n             width: 300px;\n+            display: block;\n         }\n \n         .search-bar{\n \n"
+                },
+                {
+                    "date": 1709634474048,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,8 +12,12 @@\n         .search-bar{\n \n         }\n \n+        .video-title {\n+            width: 300px;\n+        }\n+\n     </style>\n \n     <body>\n \n"
+                }
+            ],
+            "date": 1709634179156,
+            "name": "Commit-0",
+            "content": "<!DOCTYPE html>\n<html>\n\n<head>\n    <title>Youtube.com Clone</title>\n    <style >\n        .thumbnail {\n            width: 300px;\n        }\n\n        .search-bar{\n\n        }\n\n    </style>\n\n    <body>\n\n \n        \n        <input class=\"searh-bar\" type=\"text\" placeholder=\"Search\">\n\n        <img class=\"thumbnail\" src=\"thumbnails/thumbnail.png\" alt=\"Dinosaur\"/>\n    </body>\n</head>\n</html>"
+        }
+    ]
+}
